@@ -1,6 +1,6 @@
 {
   "name": "palettd",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Generate beautiful brand palette images (SVG/PNG) from a list of colors",
   "keywords": [
     "palette",

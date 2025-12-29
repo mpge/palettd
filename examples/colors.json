@@ -1,0 +1,24 @@
+{
+  "colors": [
+    "#FAF5E9",
+    "#392525",
+    "#683226",
+    "#B25D3E",
+    "#728383",
+    "#3E4734",
+    "#E3E890",
+    "#B6B7A5",
+    "#7E7B62"
+  ],
+  "names": {
+    "#FAF5E9": "Alabaster",
+    "#392525": "Cocoa Bean",
+    "#683226": "Redwood",
+    "#B25D3E": "Copper",
+    "#728383": "Juniper",
+    "#3E4734": "Woodland",
+    "#E3E890": "Canary",
+    "#B6B7A5": "Sage",
+    "#7E7B62": "Olive Haze"
+  }
+}

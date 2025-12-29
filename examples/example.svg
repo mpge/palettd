@@ -1,37 +1,36 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480">
-  <rect width="640" height="480" fill="#2B1B1B" />
-  <rect x="32" y="32" width="576" height="416" rx="16" fill="#F7F2E7" stroke="#CFC7BA" stroke-opacity="0.4" stroke-width="1" />
+  <rect width="640" height="480" fill="#FFFFFF" />
+  <rect x="28" y="28" width="584" height="424" rx="12" fill="#FAFAFA" stroke="#E5E5E5" stroke-opacity="0.6" stroke-width="1" />
   <g>
-    <rect x="51.2" y="51.2" width="155.28" height="186.28000000000003" rx="12" fill="#FAF5E9" />
-    <text x="63.2" y="225.48000000000002" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, sans-serif" font-size="12" fill="#111111" opacity="0.85">#FAF5E9</text>
-    <text x="63.2" y="209.48000000000002" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, sans-serif" font-size="18" font-weight="600" fill="#111111">Alabaster</text>
-    <rect x="51.2" y="253.968" width="155.28" height="140.832" rx="11.26656" fill="#392525" />
-    <text x="63.2" y="382.79999999999995" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, sans-serif" font-size="11.26656" fill="#FFFFFF" opacity="0.85">#392525</text>
-    <text x="63.2" y="367.5334399999999" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, sans-serif" font-size="16.899839999999998" font-weight="600" fill="#FFFFFF">Cocoa Brown</text>
-    <rect x="228.608" y="51.2" width="112.272" height="343.6" rx="8.981760000000001" fill="#683226" />
-    <text x="237.58976" y="385.81824" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, sans-serif" font-size="8.981760000000001" fill="#FFFFFF" opacity="0.85">#683226</text>
-    <text x="237.58976" y="372.83648" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, sans-serif" font-size="13.47264" font-weight="600" fill="#FFFFFF">Redwood</text>
-    <rect x="363.008" y="51.2" width="101.52000000000001" height="161.808" rx="8.1216" fill="#B25D3E" />
-    <text x="371.1296" y="204.88639999999998" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, sans-serif" font-size="8.1216" fill="#FFFFFF" opacity="0.85">#B25D3E</text>
-    <text x="371.1296" y="192.76479999999998" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, sans-serif" font-size="12.182400000000001" font-weight="600" fill="#FFFFFF">Copper</text>
-    <rect x="363.008" y="232.99200000000002" width="101.52000000000001" height="161.808" rx="8.1216" fill="#728383" />
-    <text x="371.1296" y="386.6784" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, sans-serif" font-size="8.1216" fill="#111111" opacity="0.85">#728383</text>
-    <text x="371.1296" y="374.5568" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, sans-serif" font-size="12.182400000000001" font-weight="600" fill="#111111">Juniper</text>
-    <rect x="486.65600000000006" y="51.2" width="96.144" height="77.904" rx="6.23232" fill="#3E4734" />
-    <text x="494.3475200000001" y="121.41247999999999" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, sans-serif" font-size="8" fill="#FFFFFF" opacity="0.85">#3E4734</text>
-    <text x="494.3475200000001" y="109.41247999999999" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, sans-serif" font-size="10" font-weight="600" fill="#FFFFFF">Woodland</text>
-    <rect x="486.65600000000006" y="145.592" width="96.144" height="77.904" rx="6.23232" fill="#E3E890" />
-    <text x="494.3475200000001" y="215.80448" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, sans-serif" font-size="8" fill="#111111" opacity="0.85">#E3E890</text>
-    <text x="494.3475200000001" y="203.80448" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, sans-serif" font-size="10" font-weight="600" fill="#111111">Canary</text>
-    <rect x="486.65600000000006" y="232.99200000000002" width="96.144" height="77.904" rx="6.23232" fill="#B6B7A5" />
-    <text x="494.3475200000001" y="303.20448" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, sans-serif" font-size="8" fill="#111111" opacity="0.85">#B6B7A5</text>
-    <text x="494.3475200000001" y="291.20448" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, sans-serif" font-size="10" font-weight="600" fill="#111111">Sage</text>
-    <rect x="486.65600000000006" y="316.896" width="96.144" height="77.904" rx="6.23232" fill="#7E7B62" />
-    <text x="494.3475200000001" y="387.10848" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, sans-serif" font-size="8" fill="#111111" opacity="0.85">#7E7B62</text>
-    <text x="494.3475200000001" y="375.10848" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, sans-serif" font-size="10" font-weight="600" fill="#111111">Olive Haze</text>
+    <rect x="44.8" y="44.8" width="160.11999999999998" height="194.32" rx="12" fill="#FAF5E9" />
+    <text x="56.8" y="227.12" font-family="Inter, &quot;SF Pro Display&quot;, system-ui, -apple-system, sans-serif" font-size="12" fill="#111111" opacity="0.85">#FAF5E9</text>
+    <text x="56.8" y="211.12" font-family="Inter, &quot;SF Pro Display&quot;, system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#111111">Alabaster</text>
+    <rect x="44.8" y="254.992" width="160.11999999999998" height="147.208" rx="11.77664" fill="#392525" />
+    <text x="56.8" y="390.2" font-family="Inter, &quot;SF Pro Display&quot;, system-ui, -apple-system, sans-serif" font-size="11.77664" fill="#FFFFFF" opacity="0.85">#392525</text>
+    <text x="56.8" y="374.42336" font-family="Inter, &quot;SF Pro Display&quot;, system-ui, -apple-system, sans-serif" font-size="17.66496" font-weight="600" fill="#FFFFFF">Cocoa Bean</text>
+    <rect x="226.43200000000002" y="44.8" width="116.088" height="357.4" rx="9.28704" fill="#683226" />
+    <text x="235.71904" y="392.91296" font-family="Inter, &quot;SF Pro Display&quot;, system-ui, -apple-system, sans-serif" font-size="9.28704" fill="#FFFFFF" opacity="0.85">#683226</text>
+    <text x="235.71904" y="379.62592" font-family="Inter, &quot;SF Pro Display&quot;, system-ui, -apple-system, sans-serif" font-size="13.930559999999998" font-weight="600" fill="#FFFFFF">Redwood</text>
+    <rect x="364.032" y="44.8" width="105.08" height="168.95199999999997" rx="8.4064" fill="#B25D3E" />
+    <text x="372.4384" y="205.34559999999996" font-family="Inter, &quot;SF Pro Display&quot;, system-ui, -apple-system, sans-serif" font-size="8.4064" fill="#FFFFFF" opacity="0.85">#B25D3E</text>
+    <text x="372.4384" y="192.93919999999997" font-family="Inter, &quot;SF Pro Display&quot;, system-ui, -apple-system, sans-serif" font-size="12.609599999999999" font-weight="600" fill="#FFFFFF">Copper</text>
+    <rect x="364.032" y="233.24800000000002" width="105.08" height="168.95199999999997" rx="8.4064" fill="#728383" />
+    <text x="372.4384" y="393.79359999999997" font-family="Inter, &quot;SF Pro Display&quot;, system-ui, -apple-system, sans-serif" font-size="8.4064" fill="#111111" opacity="0.85">#728383</text>
+    <text x="372.4384" y="381.38719999999995" font-family="Inter, &quot;SF Pro Display&quot;, system-ui, -apple-system, sans-serif" font-size="12.609599999999999" font-weight="600" fill="#111111">Juniper</text>
+    <rect x="490.624" y="44.8" width="99.576" height="81.97599999999998" rx="6.558079999999999" fill="#3E4734" />
+    <text x="498.59008" y="118.80991999999998" font-family="Inter, &quot;SF Pro Display&quot;, system-ui, -apple-system, sans-serif" font-size="8" fill="#FFFFFF" opacity="0.85">#3E4734</text>
+    <text x="498.59008" y="106.80991999999998" font-family="Inter, &quot;SF Pro Display&quot;, system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#FFFFFF">Woodland</text>
+    <rect x="490.624" y="142.648" width="99.576" height="81.97599999999998" rx="6.558079999999999" fill="#E3E890" />
+    <text x="498.59008" y="216.65791999999996" font-family="Inter, &quot;SF Pro Display&quot;, system-ui, -apple-system, sans-serif" font-size="8" fill="#111111" opacity="0.85">#E3E890</text>
+    <text x="498.59008" y="204.65791999999996" font-family="Inter, &quot;SF Pro Display&quot;, system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#111111">Canary</text>
+    <rect x="490.624" y="233.24800000000002" width="99.576" height="81.97599999999998" rx="6.558079999999999" fill="#B6B7A5" />
+    <text x="498.59008" y="307.25792" font-family="Inter, &quot;SF Pro Display&quot;, system-ui, -apple-system, sans-serif" font-size="8" fill="#111111" opacity="0.85">#B6B7A5</text>
+    <text x="498.59008" y="295.25792" font-family="Inter, &quot;SF Pro Display&quot;, system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#111111">Sage</text>
+    <rect x="490.624" y="320.224" width="99.576" height="81.97599999999998" rx="6.558079999999999" fill="#7E7B62" />
+    <text x="498.59008" y="394.23392" font-family="Inter, &quot;SF Pro Display&quot;, system-ui, -apple-system, sans-serif" font-size="8" fill="#111111" opacity="0.85">#7E7B62</text>
+    <text x="498.59008" y="382.23392" font-family="Inter, &quot;SF Pro Display&quot;, system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#111111">Olive Haze</text>
   </g>
-    <line x1="52" y1="420" x2="588" y2="420" stroke="#E0D8CC" stroke-width="1" />
-    <text x="52" y="437.3333333333333" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, sans-serif" font-size="10" fill="#666666" letter-spacing="0.5">BRAND GUIDELINES</text>
-    <text x="320" y="437.3333333333333" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, sans-serif" font-size="10" fill="#666666" text-anchor="middle" letter-spacing="0.5">COLOR / PALETTE</text>
-    <text x="588" y="437.3333333333333" font-family="system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, sans-serif" font-size="10" fill="#666666" text-anchor="end" letter-spacing="0.5">palettd</text>
+    <line x1="48" y1="424" x2="592" y2="424" stroke="#E0E0E0" stroke-width="1" />
+    <text x="48" y="441.3333333333333" font-family="Inter, &quot;SF Pro Display&quot;, system-ui, -apple-system, sans-serif" font-size="10" fill="#666666" letter-spacing="0.5">PALETTE</text>
+    <text x="592" y="441.3333333333333" font-family="Inter, &quot;SF Pro Display&quot;, system-ui, -apple-system, sans-serif" font-size="10" fill="#666666" text-anchor="end" letter-spacing="0.5">palettd</text>
 </svg>

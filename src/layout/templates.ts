@@ -208,11 +208,14 @@ export function generateLayout(
   const footerHeight = 28;
   const contentPadding = opts.padding * 0.6;
 
-  // Content area within the card (excluding padding and footer)
+  // Title takes up top portion if present
+  const titleHeight = opts.title ? 32 : 0;
+
+  // Content area within the card (excluding padding, title, and footer)
   const contentX = contentPadding;
-  const contentY = contentPadding;
+  const contentY = contentPadding + titleHeight;
   const contentWidth = cardWidth - contentPadding * 2;
-  const contentHeight = cardHeight - contentPadding * 2 - footerHeight;
+  const contentHeight = cardHeight - contentPadding * 2 - footerHeight - titleHeight;
 
   // Convert template cells to absolute positions
   const swatches: SwatchLayout[] = template.slice(0, colorCount).map((cell) => {

@@ -20,11 +20,11 @@ palettd takes your colors and outputs a beautiful "brand guidelines" style palet
 
 ## Example Output
 
-![Example palette board](examples/example.svg)
+![Example palette board](examples/output-board.svg)
 
 Generated with:
 ```bash
-palettd "#FAF5E9" "#392525" "#683226" "#B25D3E" "#728383" "#3E4734" "#E3E890" "#B6B7A5" "#7E7B62"
+palettd "#2D4A3E" "#8B4D57" "#D4A574" "#E8DCC4" "#1A1A2E" --title "Modern Earth"
 ```
 
 ## Installation
@@ -88,21 +88,21 @@ OPTIONS
     --height <n>            Canvas height (default: 480)
 
   Colors
-    --outer-bg <color>      Outer background color (default: #2B1B1B)
-    --card-bg <color>       Card background color (default: #F7F2E7)
-    --stroke <color>        Card stroke color (default: #CFC7BA)
-    --stroke-opacity <n>    Stroke opacity 0-1 (default: 0.4)
+    --outer-bg <color>      Outer background color (default: #FFFFFF)
+    --card-bg <color>       Card background color (default: #FAFAFA)
+    --stroke <color>        Card stroke color (default: #E5E5E5)
+    --stroke-opacity <n>    Stroke opacity 0-1 (default: 0.6)
 
   Layout
-    --card-radius <n>       Card border radius (default: 16)
-    --padding <n>           Card padding (default: 32)
-    --gap <n>               Gap between swatches (default: 12)
+    --card-radius <n>       Card border radius (default: 12)
+    --padding <n>           Card padding (default: 28)
+    --gap <n>               Gap between swatches (default: 10)
 
   Typography
     --font <family>         Font family stack
     --title <text>          Optional title above swatches
-    --footer-left <text>    Footer left text (default: BRAND GUIDELINES)
-    --footer-center <text>  Footer center text (default: COLOR / PALETTE)
+    --footer-left <text>    Footer left text (default: PALETTE)
+    --footer-center <text>  Footer center text
     --footer-right <text>   Footer right text (default: palettd)
 
   Display
@@ -358,6 +358,10 @@ npm run lint
 # Format
 npm run format
 ```
+
+## Credits
+
+Design inspiration (with modifications) from [Radish Counseling Color Palette](https://dribbble.com/shots/26591010-Radish-Counseling-Color-Palette) by Mia Muse.
 
 ## License
 

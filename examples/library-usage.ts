@@ -2,6 +2,8 @@
  * Example: Using palettd as a library
  *
  * Run with: npx tsx examples/library-usage.ts
+ *
+ * Design inspiration (with modifications): https://dribbble.com/shots/26591010-Radish-Counseling-Color-Palette
  */
 
 import { writeFileSync } from 'node:fs';
@@ -16,11 +18,11 @@ import {
 
 // Example 1: Generate a complete palette board
 console.log('Example 1: Generate complete board');
-const colors = ['#FAF5E9', '#392525', '#683226', '#B25D3E', '#728383'];
+const colors = ['#2D4A3E', '#8B4D57', '#D4A574', '#E8DCC4', '#1A1A2E'];
 
 const result = generateBoard(colors, {
-  title: 'Autumn Collection',
-  footerRight: '2024',
+  title: 'Modern Earth',
+  footerRight: '2025',
   format: 'png',
 });
 

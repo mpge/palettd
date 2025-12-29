@@ -82,7 +82,7 @@ function renderFooter(
 
   // Footer separator line
   lines.push(
-    `    <line x1="${card.x + padding}" y1="${card.y + footer.y}" x2="${card.x + card.width - padding}" y2="${card.y + footer.y}" stroke="#E0D8CC" stroke-width="1" />`
+    `    <line x1="${card.x + padding}" y1="${card.y + footer.y}" x2="${card.x + card.width - padding}" y2="${card.y + footer.y}" stroke="#E0E0E0" stroke-width="1" />`
   );
 
   // Left text

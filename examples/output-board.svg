@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480">
+  <rect width="640" height="480" fill="#FFFFFF" />
+  <rect x="28" y="28" width="584" height="424" rx="12" fill="#FAFAFA" stroke="#E5E5E5" stroke-opacity="0.6" stroke-width="1" />
+    <text x="48" y="52" font-family="Inter, &quot;SF Pro Display&quot;, system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#333333" letter-spacing="0.5">Modern Earth</text>
+  <g>
+    <rect x="44.8" y="44.8" width="242.68" height="357.4" rx="12" fill="#2D4A3E" />
+    <text x="56.8" y="390.2" font-family="Inter, &quot;SF Pro Display&quot;, system-ui, -apple-system, sans-serif" font-size="12" fill="#FFFFFF" opacity="0.85">#2D4A3E</text>
+    <text x="56.8" y="374.2" font-family="Inter, &quot;SF Pro Display&quot;, system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">Woodland</text>
+    <rect x="308.992" y="44.8" width="132.6" height="168.95199999999997" rx="10.608" fill="#8B4D57" />
+    <text x="319.6" y="203.14399999999995" font-family="Inter, &quot;SF Pro Display&quot;, system-ui, -apple-system, sans-serif" font-size="10.608" fill="#FFFFFF" opacity="0.85">#8B4D57</text>
+    <text x="319.6" y="188.53599999999994" font-family="Inter, &quot;SF Pro Display&quot;, system-ui, -apple-system, sans-serif" font-size="15.911999999999999" font-weight="600" fill="#FFFFFF">Brown</text>
+    <rect x="457.59999999999997" y="44.8" width="132.6" height="168.95199999999997" rx="10.608" fill="#D4A574" />
+    <text x="468.20799999999997" y="203.14399999999995" font-family="Inter, &quot;SF Pro Display&quot;, system-ui, -apple-system, sans-serif" font-size="10.608" fill="#111111" opacity="0.85">#D4A574</text>
+    <text x="468.20799999999997" y="188.53599999999994" font-family="Inter, &quot;SF Pro Display&quot;, system-ui, -apple-system, sans-serif" font-size="15.911999999999999" font-weight="600" fill="#111111">Fawn</text>
+    <rect x="308.992" y="233.24800000000002" width="132.6" height="168.95199999999997" rx="10.608" fill="#E8DCC4" />
+    <text x="319.6" y="391.592" font-family="Inter, &quot;SF Pro Display&quot;, system-ui, -apple-system, sans-serif" font-size="10.608" fill="#111111" opacity="0.85">#E8DCC4</text>
+    <text x="319.6" y="376.984" font-family="Inter, &quot;SF Pro Display&quot;, system-ui, -apple-system, sans-serif" font-size="15.911999999999999" font-weight="600" fill="#111111">Wheat</text>
+    <rect x="457.59999999999997" y="233.24800000000002" width="132.6" height="168.95199999999997" rx="10.608" fill="#1A1A2E" />
+    <text x="468.20799999999997" y="391.592" font-family="Inter, &quot;SF Pro Display&quot;, system-ui, -apple-system, sans-serif" font-size="10.608" fill="#FFFFFF" opacity="0.85">#1A1A2E</text>
+    <text x="468.20799999999997" y="376.984" font-family="Inter, &quot;SF Pro Display&quot;, system-ui, -apple-system, sans-serif" font-size="15.911999999999999" font-weight="600" fill="#FFFFFF">Dark Navy</text>
+  </g>
+    <line x1="48" y1="424" x2="592" y2="424" stroke="#E0E0E0" stroke-width="1" />
+    <text x="48" y="441.3333333333333" font-family="Inter, &quot;SF Pro Display&quot;, system-ui, -apple-system, sans-serif" font-size="10" fill="#666666" letter-spacing="0.5">PALETTE</text>
+    <text x="592" y="441.3333333333333" font-family="Inter, &quot;SF Pro Display&quot;, system-ui, -apple-system, sans-serif" font-size="10" fill="#666666" text-anchor="end" letter-spacing="0.5">2025</text>
+</svg>

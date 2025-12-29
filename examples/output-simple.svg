@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#FFFFFF" />
+  <rect x="28" y="28" width="744" height="344" rx="12" fill="#FAFAFA" stroke="#E5E5E5" stroke-opacity="0.6" stroke-width="1" />
+  <g>
+    <rect x="44.8" y="44.8" width="385.72" height="277.4" rx="12" fill="#FF6600" />
+    <text x="56.8" y="310.2" font-family="Inter, &quot;SF Pro Display&quot;, system-ui, -apple-system, sans-serif" font-size="12" fill="#111111" opacity="0.85">#FF6600</text>
+    <text x="56.8" y="294.2" font-family="Inter, &quot;SF Pro Display&quot;, system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#111111">Safety Orange</text>
+    <rect x="456.832" y="44.8" width="293.368" height="130.552" rx="10.44416" fill="#0B1320" />
+    <text x="468.832" y="163.35199999999998" font-family="Inter, &quot;SF Pro Display&quot;, system-ui, -apple-system, sans-serif" font-size="10.44416" fill="#FFFFFF" opacity="0.85">#0B1320</text>
+    <text x="468.832" y="148.90783999999996" font-family="Inter, &quot;SF Pro Display&quot;, system-ui, -apple-system, sans-serif" font-size="15.666239999999998" font-weight="600" fill="#FFFFFF">Rich Black</text>
+    <rect x="456.832" y="191.648" width="293.368" height="130.552" rx="10.44416" fill="#00A86B" />
+    <text x="468.832" y="310.2" font-family="Inter, &quot;SF Pro Display&quot;, system-ui, -apple-system, sans-serif" font-size="10.44416" fill="#111111" opacity="0.85">#00A86B</text>
+    <text x="468.832" y="295.75584" font-family="Inter, &quot;SF Pro Display&quot;, system-ui, -apple-system, sans-serif" font-size="15.666239999999998" font-weight="600" fill="#111111">Jade</text>
+  </g>
+    <line x1="48" y1="344" x2="752" y2="344" stroke="#E0E0E0" stroke-width="1" />
+    <text x="48" y="361.3333333333333" font-family="Inter, &quot;SF Pro Display&quot;, system-ui, -apple-system, sans-serif" font-size="10" fill="#666666" letter-spacing="0.5">PALETTE</text>
+    <text x="752" y="361.3333333333333" font-family="Inter, &quot;SF Pro Display&quot;, system-ui, -apple-system, sans-serif" font-size="10" fill="#666666" text-anchor="end" letter-spacing="0.5">palettd</text>
+</svg>

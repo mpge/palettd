@@ -148,8 +148,6 @@ export interface BoardOptions {
   strokeOpacity?: number;
   /** Font family stack */
   font?: string;
-  /** Optional title */
-  title?: string;
   /** Footer left text */
   footerLeft?: string;
   /** Footer center text */

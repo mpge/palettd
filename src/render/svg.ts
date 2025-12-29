@@ -110,26 +110,6 @@ function renderFooter(
 }
 
 /**
- * Render title if provided
- */
-function renderTitle(
-  layout: Layout,
-  options: {
-    title?: string;
-    font: string;
-  }
-): string {
-  if (!options.title) return '';
-
-  const { card } = layout;
-  const fontSize = 14;
-  const y = card.y + 24;
-  const x = card.x + 20;
-
-  return `    <text x="${x}" y="${y}" font-family="${escapeXml(options.font)}" font-size="${fontSize}" font-weight="600" fill="#333333" letter-spacing="0.5">${escapeXml(options.title)}</text>`;
-}
-
-/**
  * Render the complete SVG board
  */
 export function renderSvg(
@@ -155,12 +135,6 @@ export function renderSvg(
   lines.push(
     `  <rect x="${card.x}" y="${card.y}" width="${card.width}" height="${card.height}" rx="${card.radius}" fill="${cardBg}" stroke="${stroke}" stroke-opacity="${strokeOpacity}" stroke-width="1" />`
   );
-
-  // Title if present
-  const title = renderTitle(layout, { title: opts.title, font });
-  if (title) {
-    lines.push(title);
-  }
 
   // Render swatches
   lines.push('  <g>');

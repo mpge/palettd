@@ -60,12 +60,6 @@ describe('generateBoard', () => {
     expect(hexMatches1).toBeGreaterThan(hexMatches2);
   });
 
-  it('includes title when provided', () => {
-    const result = generateBoard(TEST_COLORS, { title: 'My Palette' });
-
-    expect(result.svg).toContain('My Palette');
-  });
-
   it('includes footer text', () => {
     const result = generateBoard(TEST_COLORS, {
       footerLeft: 'LEFT',
@@ -133,11 +127,11 @@ describe('generateSvg', () => {
     const svg = generateSvg(TEST_COLORS, {
       width: 1024,
       height: 768,
-      title: 'Test',
+      footerLeft: 'Test Footer',
     });
 
     expect(svg).toContain('width="1024"');
-    expect(svg).toContain('Test');
+    expect(svg).toContain('Test Footer');
   });
 });
 
@@ -181,8 +175,8 @@ describe('deterministic output', () => {
   });
 
   it('produces different output for different options', () => {
-    const svg1 = generateSvg(TEST_COLORS, { title: 'A' });
-    const svg2 = generateSvg(TEST_COLORS, { title: 'B' });
+    const svg1 = generateSvg(TEST_COLORS, { footerLeft: 'A' });
+    const svg2 = generateSvg(TEST_COLORS, { footerLeft: 'B' });
 
     expect(svg1).not.toBe(svg2);
   });

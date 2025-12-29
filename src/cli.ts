@@ -42,7 +42,6 @@ OPTIONS
 
   Typography
     --font <family>         Font family stack
-    --title <text>          Optional title above swatches
     --footer-left <text>    Footer left text (default: ${DEFAULT_OPTIONS.footerLeft})
     --footer-center <text>  Footer center text (default: ${DEFAULT_OPTIONS.footerCenter})
     --footer-right <text>   Footer right text (default: ${DEFAULT_OPTIONS.footerRight})
@@ -64,7 +63,7 @@ OPTIONS
 EXAMPLES
   palettd "#FAF5E9" "#392525" "#683226" --format png --out palette.png
   palettd --input colors.json --format svg > palette.svg
-  palettd "#ff6600" "#0b1320" --title "Acme Palette" --footer-right "01"
+  palettd "#ff6600" "#0b1320" --footer-left "Acme Palette" --footer-right "01"
 
 INPUT FILE FORMAT
   {
@@ -89,7 +88,6 @@ interface CliOptions {
   padding: number;
   gap: number;
   font: string;
-  title?: string;
   footerLeft: string;
   footerCenter: string;
   footerRight: string;
@@ -236,11 +234,6 @@ function parseArgs(args: string[]): CliOptions {
       i++;
       continue;
     }
-    if (arg === '--title') {
-      options.title = args[++i];
-      i++;
-      continue;
-    }
     if (arg === '--footer-left') {
       options.footerLeft = args[++i];
       i++;
@@ -363,7 +356,6 @@ function run(): void {
     stroke: options.stroke,
     strokeOpacity: options.strokeOpacity,
     font: options.font,
-    title: options.title,
     footerLeft: options.footerLeft,
     footerCenter: options.footerCenter,
     footerRight: options.footerRight,

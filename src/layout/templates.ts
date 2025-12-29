@@ -152,7 +152,7 @@ function getTemplate(count: number): TemplateCell[] {
  * Default board options
  */
 export const DEFAULT_OPTIONS: Required<
-  Omit<BoardOptions, 'title' | 'providedNames' | 'format'>
+  Omit<BoardOptions, 'providedNames' | 'format'>
 > & { format: 'svg' } = {
   format: 'svg',
   width: 640,
@@ -208,14 +208,11 @@ export function generateLayout(
   const footerHeight = 28;
   const contentPadding = opts.padding * 0.6;
 
-  // Title takes up top portion if present
-  const titleHeight = opts.title ? 32 : 0;
-
-  // Content area within the card (excluding padding, title, and footer)
+  // Content area within the card (excluding padding and footer)
   const contentX = contentPadding;
-  const contentY = contentPadding + titleHeight;
+  const contentY = contentPadding;
   const contentWidth = cardWidth - contentPadding * 2;
-  const contentHeight = cardHeight - contentPadding * 2 - footerHeight - titleHeight;
+  const contentHeight = cardHeight - contentPadding * 2 - footerHeight;
 
   // Convert template cells to absolute positions
   const swatches: SwatchLayout[] = template.slice(0, colorCount).map((cell) => {

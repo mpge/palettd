@@ -100,7 +100,6 @@ OPTIONS
 
   Typography
     --font <family>         Font family stack
-    --title <text>          Optional title above swatches
     --footer-left <text>    Footer left text (default: PALETTE)
     --footer-center <text>  Footer center text
     --footer-right <text>   Footer right text (default: palettd)

@@ -9,7 +9,7 @@ Generate beautiful brand palette images (SVG/PNG) from a list of colors.
 palettd takes your colors and outputs a beautiful "brand guidelines" style palette board image. Perfect for design documentation, style guides, and brand assets.
 
 <a href="https://palettd.com">
-  <img src="examples/palettd-logo.png" alt="palettd logo" width="40" align="left" style="margin-right: 10px;">
+  <img src="examples/palettd-logo.png" alt="palettd logo" width="80" align="left" style="margin-right: 10px;">
 </a>
 
 **Try the demo or use the free API for palette generation at [palettd.com](https://palettd.com)**

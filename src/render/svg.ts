@@ -14,7 +14,17 @@ function escapeXml(str: string): string {
 }
 
 /**
- * Render a single swatch with color, name, and hex
+ * Estimate text width using average character width ratios.
+ * This is an approximation since SVG doesn't have built-in text measurement.
+ */
+function estimateTextWidth(text: string, fontSize: number): number {
+  // Average character width is roughly 0.6x the font size for sans-serif
+  return text.length * fontSize * 0.6;
+}
+
+/**
+ * Render a single swatch with color, name, and hex.
+ * Uses clipPath to prevent text from overflowing swatch boundaries.
  */
 function renderSwatch(
   color: PaletteColor,
@@ -23,12 +33,21 @@ function renderSwatch(
     showName: boolean;
     showHex: boolean;
     font: string;
-  }
+  },
+  swatchIndex: number
 ): string {
   const { x, y, width, height, radius, nameFontSize, hexFontSize } = swatch;
   const { showName, showHex, font } = options;
 
   const lines: string[] = [];
+  const clipId = `swatch-clip-${swatchIndex}`;
+
+  // Define a clipPath for this swatch so text never overflows
+  lines.push(
+    `    <clipPath id="${clipId}">`,
+    `      <rect x="${x}" y="${y}" width="${width}" height="${height}" rx="${radius}" />`,
+    `    </clipPath>`
+  );
 
   // Swatch background
   lines.push(
@@ -38,20 +57,27 @@ function renderSwatch(
   // Calculate text positions - bottom-left aligned with padding
   const textPadding = Math.min(12, width * 0.08);
   const textX = x + textPadding;
+  const availableTextWidth = width - textPadding * 2;
   let textY = y + height - textPadding;
 
   // Hex code (bottom line)
   if (showHex) {
     lines.push(
-      `    <text x="${textX}" y="${textY}" font-family="${escapeXml(font)}" font-size="${hexFontSize}" fill="${color.textColor}" opacity="0.85">${color.hex}</text>`
+      `    <text x="${textX}" y="${textY}" font-family="${escapeXml(font)}" font-size="${hexFontSize}" fill="${color.textColor}" opacity="0.85" clip-path="url(#${clipId})">${color.hex}</text>`
     );
     textY -= hexFontSize + 4;
   }
 
-  // Color name (above hex)
+  // Color name (above hex) - scale down font if name is too wide
   if (showName && color.name) {
+    let adjustedNameSize = nameFontSize;
+    const estimatedWidth = estimateTextWidth(color.name, adjustedNameSize);
+    if (estimatedWidth > availableTextWidth && availableTextWidth > 0) {
+      adjustedNameSize = Math.max(8, adjustedNameSize * (availableTextWidth / estimatedWidth));
+    }
+
     lines.push(
-      `    <text x="${textX}" y="${textY}" font-family="${escapeXml(font)}" font-size="${nameFontSize}" font-weight="600" fill="${color.textColor}">${escapeXml(color.name)}</text>`
+      `    <text x="${textX}" y="${textY}" font-family="${escapeXml(font)}" font-size="${adjustedNameSize.toFixed(1)}" font-weight="600" fill="${color.textColor}" clip-path="url(#${clipId})">${escapeXml(color.name)}</text>`
     );
   }
 
@@ -152,7 +178,7 @@ export function renderSvg(
           showName: opts.showName,
           showHex: opts.showHex,
           font,
-        })
+        }, i)
       );
     }
   });
